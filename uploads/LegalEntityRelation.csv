@@ -1,0 +1,16 @@
+entity1,relationship,entity2
+Case123,handled by,Lawyer_John_Doe
+Case123,involves,Client_Jane_Smith
+Case123,decided by,CourtDecision_Guilty
+Case124,handled by,Lawyer_Mary_Johnson
+Case124,involves,Client_Robert_Brown
+Case124,decided by,CourtDecision_Not_Guilty
+Case125,handled by,Lawyer_William_Jones
+Case125,involves,Client_Emily_Davis
+Case125,decided by,CourtDecision_Settled
+Lawyer_John_Doe,represents,Client_Jane_Smith
+Lawyer_Mary_Johnson,represents,Client_Robert_Brown
+Lawyer_William_Jones,represents,Client_Emily_Davis
+CourtDecision_Guilty,refers to,Case123
+CourtDecision_Not_Guilty,refers to,Case124
+CourtDecision_Settled,refers to,Case125
